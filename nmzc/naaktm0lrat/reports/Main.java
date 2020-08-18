@@ -10,7 +10,6 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		System.out.println(ChatColor.GREEN + "Reports are now enabled!");
-		saveDefaultConfig();
 		new CommandReport(this);
 	}
 	
