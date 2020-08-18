@@ -1,0 +1,20 @@
+[09:49:43] [Server thread/ERROR]: Could not load 'plugins/reports.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Cannot find main class `nmzc.naaktem0lrat.reports.Main'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:66) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_262]
+Caused by: java.lang.ClassNotFoundException: nmzc.naaktem0lrat.reports.Main
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_262]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_262]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_262]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_262]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_262]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	... 7 more
