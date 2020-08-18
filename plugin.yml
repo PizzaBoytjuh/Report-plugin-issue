@@ -1,0 +1,8 @@
+name: PlayerReports
+main: nmzc.naaktem0lrat.reports.Main
+version: 1.0.0
+description: just a report plugin!
+commands:
+  report:
+    description: Allows players to report other players
+    usage: /<Command> {player} {offence}
